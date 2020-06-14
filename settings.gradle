@@ -1,0 +1,5 @@
+include ':processconnection3'
+include ':processconnection2'
+include ':processconnenction1'
+include ':app'
+rootProject.name = "AndroidDemo"

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show" />
+
+    <Button
+        android:id="@+id/btn_setbitmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SetBitmap" />
+
+    <Button
+        android:id="@+id/btn_showbitmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ShowBitmap" />
+
+    <ImageView
+        android:id="@+id/iv_bitmap"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="center" />
+
+    <Button
+        android:id="@+id/btn_connection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connection" />
+
+    <Button
+        android:id="@+id/btn_shared_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shared" />
+
+    <Button
+        android:id="@+id/btn_getShared_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get Shared" />
+
+</LinearLayout>
